@@ -3,8 +3,6 @@
     <q-card-section>
       <div class="intro">
         <q-avatar :size="100">
-          <!-- Si 'driver.imageUrl' no está disponible, muestra una imagen predeterminada -->
-          <img :src="driver.url" alt="Driver Image" />
         </q-avatar>
         <h2>{{ driver.givenName }} {{ driver.familyName }}</h2>
       </div>
